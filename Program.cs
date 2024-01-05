@@ -20,6 +20,7 @@ builder.Services.AddCors(options =>
 // Add services to the container.
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICandidateService, CandidateService>(); 
+builder.Services.AddScoped<ICertificateService, CertificateService>(); 
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

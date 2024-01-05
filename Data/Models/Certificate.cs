@@ -16,4 +16,5 @@ public class Certificate : AuditBase
     public float PercentageScore { get; set; }
     public string AssessmentTestCode { get; set; }
     public bool AssessmentResultLabel { get; set; }
+    
 }
