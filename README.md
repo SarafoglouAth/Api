@@ -20,7 +20,6 @@
     <br />
      <a href="https://www.canva.com/design/DAF6WBCNdFk/LkQH_mlFQS1Fd4HflVrIbw/edit?utm_content=DAF6WBCNdFk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">View Demo</a>
 
-    ·
 
 </div>
    
