@@ -1,0 +1,208 @@
+/* Style the container for the navigation bar */
+.Application {
+    background-color: #E8E8E8;
+    color: black;
+    font-size: 18px;
+
+}
+
+/* Style the navigation links */
+nav {
+    background-color: #232828;
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+
+
+}
+
+
+nav a, nav p {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.user-img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* This keeps the aspect ratio */
+    display: block; /* Ensures the image doesn't interfere with other elements */
+}
+
+nav a:hover, nav p:hover {
+    color: #00bcd4; /* Change the color on hover */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    align-items: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a,
+.dropdown-content p, .dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: none; /* Remove default button border */
+    background: none; /* Remove default button background */
+    cursor: pointer;
+}
+
+/* Change color of Link and button on hover */
+.dropdown-content a:hover,
+.dropdown-content p:hover {
+    background-color: #f1f1f1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.icon {
+    font-size: 24px; /* Adjust the size of the icon */
+    line-height: 1; /* Ensure proper alignment */
+}
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 5em;
+    height: 2.5em;
+    user-select: none;
+}
+
+/* Hide default HTML checkbox */
+.switch .cb {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.toggle {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    background-color: #373737;
+    border-radius: 0.1em;
+    transition: 0.4s;
+    text-transform: uppercase;
+    font-weight: 700;
+    overflow: hidden;
+    box-shadow: -0.3em 0 0 0 #373737, -0.3em 0.3em 0 0 #373737,
+    0.3em 0 0 0 #373737, 0.3em 0.3em 0 0 #373737, 0 0.3em 0 0 #373737;
+}
+
+.toggle > .left {
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 88%;
+    background-color: #f3f3f3;
+    color: #373737;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    transform-origin: right;
+    transform: rotateX(10deg);
+    transform-style: preserve-3d;
+    transition: all 150ms;
+}
+
+.left::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(206, 206, 206);
+    transform-origin: center left;
+    transform: rotateY(90deg);
+}
+
+.left::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(112, 112, 112);
+    transform-origin: center bottom;
+    transform: rotateX(90deg);
+}
+
+.toggle > .right {
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 88%;
+    background-color: #f3f3f3;
+    color: rgb(206, 206, 206);
+    right: 1px;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    transform-origin: left;
+    transform: rotateX(10deg) rotateY(-45deg);
+    transform-style: preserve-3d;
+    transition: all 150ms;
+}
+
+.right::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(206, 206, 206);
+    transform-origin: center right;
+    transform: rotateY(-90deg);
+}
+
+.right::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(112, 112, 112);
+    transform-origin: center bottom;
+    transform: rotateX(90deg);
+}
+
+.switch input:checked + .toggle > .left {
+    transform: rotateX(10deg) rotateY(45deg);
+    color: rgb(206, 206, 206);
+}
+
+.switch input:checked + .toggle > .right {
+    transform: rotateX(10deg) rotateY(0deg);
+    color: #487bdb;
+}
+.GroupFields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top:2%;
+}

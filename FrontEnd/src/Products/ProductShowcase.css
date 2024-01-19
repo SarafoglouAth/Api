@@ -1,0 +1,87 @@
+/* productShowcase.css */
+.product-showcase {
+    padding: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15%, 1fr)); /* Adjusted for 2 products per row */
+
+    grid-gap: 30px;
+    margin:20px;
+
+}
+
+@media (max-width: 1300px) {
+    .products {
+        grid-template-columns: 1fr; /* Single column for small screens */
+    }
+}
+
+
+.product.hidden {
+    display: none; /* Hide the product */
+}
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+.TxtAlCntr{
+    text-align: center;
+}
+.Rounded{
+    border-radius: 10px;
+}
+.FrogSays{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.Mrg-50{
+    margin-top: 50px;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.product p {
+    margin: 8px 0;
+}
+
+.popup {
+    position: fixed; /* Change from fixed to absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    max-height: 80%; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+.card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.Bckgrnd-Clr{
+    background-color: #6EB0E0FF;
+    border-radius: 50%;
+}
+.Logo {
+    width: 100%; /* Make the image take the full width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom:2%;
+
+}

@@ -1,0 +1,52 @@
+.App {
+    font-family: "Hachi Maru Pop", cursive;
+    display: inline;
+    padding: 15px;
+    text-align: center;
+    overflow: auto;
+}
+
+.App #downloadWrapper {
+    padding: 20px;
+}
+.App #certificateWrapper {
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.App #certificateWrapper img {
+    display: block;
+}
+.App #certificateWrapper p {
+    font-family: "Staatliches", cursive;
+    margin: 0;
+    position: absolute;
+    left: 710px;
+    top: 700px;
+    font-size: 50pt;
+}
+.App #certificateWrapper h1 {
+    font-family: "Staatliches", cursive;
+    margin: 0;
+    position: absolute;
+    left: 830px;
+    top: 950px;
+    font-size: 50pt;
+}
+.App #certificateWrapper h2 {
+    font-family: "Staatliches", cursive;
+    margin: 0;
+    position: absolute;
+    left: 1800px;
+    top: 5px;
+    font-size: 20pt;
+}
+.App #certificateWrapper h6 {
+    font-family: "Staatliches", cursive;
+    margin: 0;
+    position: absolute;
+    left: 1px;
+    top: 1370px;
+    font-size: 20pt;
+}
