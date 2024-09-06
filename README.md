@@ -31,9 +31,7 @@
  The project aims to develop a comprehensive certification and examination system that encompasses the entire lifecycle of candidates, certificates, examinations, and results.
 The system is designed to provide a user-friendly interface for administrators, candidates, and other stakeholders, ensuring efficient management of data and processes.
 
-<p align="center">
-  <img src="https://i.ibb.co/KhsnRyx/Screenshot-2024-01-19-183648.png" alt="Log-In">
-</p>
+
 
 
 
