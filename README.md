@@ -4,11 +4,9 @@
 <!--
 
 <!-- PROJECT LOGO -->
-<br />
+
 <div align="center">
-  <a href="https://github.com/SarafoglouAth/Certification-and-Examination-Platform">
-    <img src="https://i.ibb.co/VWh5mkP/logo.png" alt="Logo" width="80" height="80">
-  </a>
+
 
 <h3 align="center">Certification and Examination Platform</h3>
 
